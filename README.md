@@ -48,9 +48,10 @@ Each verb/action has corresponding questions if necessary.
 | Function Name      | Description | Result |
 | ----------- | ----------- | ----------- |
 | nvn     | Simplifying the sentence into the format of Subject-verb-object format     |  result is in the format of dataframe(Subject,Object,NVN, Verb)
-| nvn_an  | Finding the verb acting on the object and the corresponding adjective decorating it        | the result is in the format of dataframe with object as the key with one verb and a list of adjectives impacting it.
+| nvn_an  | Finding the verb acting on the object and the corresponding adjective decorating it        | the result is in the format of dictionary with object as the key with one verb and a list of adjectives impacting it. {"Object":{"verb":string, "adj":[list]}}
 
 
  
 ### Improvement
+
 * Currently, the question only will be asked if the command's extracted verb matches exactly same as the key in the json library. We could compute the similiarity between the key of the dictinoary and the command's action word to allow flexibility. 
