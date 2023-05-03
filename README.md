@@ -47,7 +47,7 @@ Each verb/action has corresponding questions if necessary.
 ### Process Explaination/Result
 | Function Name      | Description | Result |
 | ----------- | ----------- | ----------- |
-| nvn     | Quick-start guide       |
+| nvn     | Simplifying the sentence into the format of Subject-verb-object format     |  result is in the format of dataframe(Subject,Object,NVN, Verb)
 |    |         |
 
 
