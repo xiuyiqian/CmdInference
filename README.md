@@ -48,7 +48,7 @@ Each verb/action has corresponding questions if necessary.
 | Function Name      | Description | Result |
 | ----------- | ----------- | ----------- |
 | nvn     | Simplifying the sentence into the format of Subject-verb-object format     |  result is in the format of dataframe(Subject,Object,NVN, Verb)
-|    |         |
+| nvn_an  | Finding the verb acting on the object and the corresponding adjective decorating it        | the result is in the format of dataframe with object as the key with one verb and a list of adjectives impacting it.
 
 
  
