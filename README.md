@@ -53,5 +53,4 @@ Each verb/action has corresponding questions if necessary.
 
  
 ### Improvement
-
 * Currently, the question only will be asked if the command's extracted verb matches exactly same as the key in the json library. We could compute the similiarity between the key of the dictinoary and the command's action word to allow flexibility. 
